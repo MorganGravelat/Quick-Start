@@ -1,0 +1,35 @@
+/* TODO Add site wide styles */
+@font-face {
+    font-family: FrankfurterPlain;
+    src: url("./fonts/FrankfurterPlain.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MaisonNueBook;
+    src: url("./fonts/Maison\ Neue\ Book.woff") format("woff");
+}
+
+* {
+    text-decoration: none;
+    color: white;
+    font-family: "MaisonNueBook";
+}
+
+*:visited {
+    text-decoration: none;
+    color: white;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #444444;
+}

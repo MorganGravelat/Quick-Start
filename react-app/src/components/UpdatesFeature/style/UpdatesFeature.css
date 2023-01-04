@@ -1,0 +1,116 @@
+.Update-list-container {
+    display: flex;
+
+
+}
+
+.Update-list {
+    list-style: none;
+    width: 95%;
+
+}
+
+.Update-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divider {
+    height: 2px;
+    align-self: center;
+    width: 100%;
+    background-color: #444444;
+}
+
+.Update-list-division{
+    display: flex;
+    align-items: center;
+    width: 0%;
+}
+
+.Update-owner-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.Update-owner-image {
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 5%;
+}
+
+.Update-detail-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: 5px;
+}
+
+.Update-title-container{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.Update-title{
+    align-self: center;
+    margin: 5px;
+    width: 200px;
+}
+
+.Update-image-container {
+    margin: 5px;
+    height: 100px;
+    object-fit: cover;
+    justify-self: end;
+}
+
+.Update-image {
+    height: 100%;
+}
+
+.Update-content-container{
+    margin: 5px;
+}
+
+.Update-content{
+    margin: 5px;
+}
+
+.Update-add-btn{
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44fff0;
+}
+
+.Update-list-item .Update-delete-btn {
+    margin-top: 20px
+}
+
+.Update-delete-btn{
+    cursor: pointer;
+    display: block;
+    background: transparent;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    line-height: 25px;
+    height: 25px;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #44fff0;
+}

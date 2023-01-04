@@ -1,0 +1,69 @@
+.project-div {
+    max-width: 350px;
+    height: 350px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background: #444444;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 30px;
+}
+
+.project-div:hover {
+    position: relative;
+    top: 5px;
+}
+
+.project-title {
+    color: white;
+    align-self: center;
+}
+
+.project-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+
+.project-image {
+    margin-bottom: 10px;
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.project-image-container {
+    width: 100%;
+    max-height: 45%;
+}
+
+.project-description {
+    align-self: center;
+    background-color: #444444;
+    border: 2px solid #444444;
+    box-sizing: border-box;
+    color: white;
+    height: 82px;
+    margin: 10px 0px;
+    width: 90%;
+    overflow-x:auto;
+    text-overflow: ellipsis;
+}
+
+.project-description::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.project-description::-webkit-scrollbar {
+    width: 10px;
+}
+
+.project-description::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #444444;
+}
