@@ -1,6 +1,6 @@
 # Quickstarter
 
-Welcome to the QuickStarter wiki! Quickstarter is an app (clone of Kickstarter) for business founders to connect with perspective investors/angels to allow the businesses to receive donations to begin their businesses. Businesses receive support without the expectation of receiving ownership or expectations of return of capital.
+Welcome to the QuickStarter wiki! Quickstarter is an app (clone of Kickstarter) for business founders to connect with perspective investors/angels to allow the businesses to receive donations to begin their businesses. Businesses receive support without the expectation of receiving ownership or expectations of return of capitall.
 
 ## Index
 [MVP Feature List ](https://github.com/iedwards314/QuickStarter/wiki/Feature-List) | [ User Stories ](https://github.com/iedwards314/QuickStarter/wiki/User-Stories)| [ Database Schema ](https://github.com/iedwards314/QuickStarter/wiki/Database-Schema)|
