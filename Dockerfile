@@ -1,5 +1,6 @@
 # Start with the python:3.9 image
 FROM python:3.9
+FROM node:12 AS build-stage
 
 # Set the following enviroment variables
 #
